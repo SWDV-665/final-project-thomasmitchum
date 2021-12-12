@@ -1,0 +1,46 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>
+      Add Orders
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  <ion-item>
+    <ion-input placeholder="First Name"></ion-input>
+  </ion-item>
+  <ion-item>
+    <ion-input placeholder="Last Name"></ion-input>
+  </ion-item>
+  <ion-item>
+    <ion-input type='tel' maxlength= '10'placeholder="Phone Number"></ion-input>
+  </ion-item>
+  <ion-item>
+    <ion-input placeholder="Street Address"></ion-input>
+  </ion-item>
+  <ion-item>
+    <ion-input placeholder="City"></ion-input>
+  </ion-item>
+  <ion-item>
+    <ion-input placeholder="State"></ion-input>
+  </ion-item>
+  <ion-item>
+    <ion-input maxlength='5' placeholder="Zip code"></ion-input>
+  </ion-item>
+  <ion-item>
+    <ion-label position="floating">Description of Problem</ion-label>
+    <ion-textarea></ion-textarea>
+  </ion-item>
+  <ion-item>
+    <ion-input placeholder="Assign Technician"></ion-input>
+  </ion-item>
+
+  <ion-fab bottom right>
+    <button (click)="addItem()" ion-fab mini>
+      <ion-icon name="add"></ion-icon>
+    </button>
+  </ion-fab>
+
+
+</ion-content>
